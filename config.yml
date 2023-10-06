@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://zhangyuan.netlify.app/"
 title: zhang远
 theme: PaperMod
 paginate: 5
@@ -9,13 +9,9 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  # socialIcons:
-  #   - name: github
-  #     url: "https://github.com/"
-  #   - name: twitter
-  #     url: "https://twitter.com/"
-  #   - name: facebook
-  #     url: "https://facebook.com/"
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
 
   showBreadCrumbs: true
   showReading: true
@@ -31,20 +27,14 @@ params:
   showtoc: false
   tocopen: false
 
-   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
   # 配置欢迎页
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: "Welcome to my blog!"
     subtitle: "This blog is about my Programming notes.if you are interested,you can visit my personal life blog,please click Blog!"
     imageUrl: "img/head.jpg"
     imageWidth: 120
     imageHeight: 120
-    # imageTitle: ""
     buttons:
       - name: Tech
         url: /posts/
