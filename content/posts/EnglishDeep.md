@@ -3,8 +3,7 @@ title: "Deep learning: exploring the future of artificial intelligence"
 date: 2023-09-24
 draft: false
 
-tags: ["deep"]
-categories: ["English"]
+categories: ["English","deep"]
 ---
 
 In today's digital age,artificial intelligence gas become a hot topic in technology . Deep learning, a branch of artificial intelligence,is changing the way we see the world and process information. It mimics the neural network structure of the human brain and enables computer system to learn and improve their performance through large amounts of data and complex algorithms. The advent of deep learning has enabled computer to perform more intelligent task,such as speech recognition, image recognition, and natural language processing.

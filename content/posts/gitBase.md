@@ -3,8 +3,8 @@ title: "Git Base"
 date: 2023-09-26
 draft: false
 
-tags: ["other"]
-categories: ["Base","English"]
+tags: ["git"]
+categories: ["English"]
 ---
 # Basic commant of git
 ![An image](/img/git.png)

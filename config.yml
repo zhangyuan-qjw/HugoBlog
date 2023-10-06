@@ -30,28 +30,28 @@ params:
   # 配置欢迎页
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "Welcome to my blog!"
-    subtitle: "This blog is about my Programming notes.if you are interested,you can visit my personal life blog,please click Blog!"
+    title: "日常笔记"
+    subtitle: "hugo搭建的笔记网站，想了解，去官网：https://gohugo.io/"
     imageUrl: "img/head.jpg"
     imageWidth: 120
     imageHeight: 120
     buttons:
       - name: Tech
         url: /posts/
-      - name: github
-        url: "https://github.com/"
+      - name: blog
+        url: "http://8.134.109.184"
 menu:
   main:
     - identifier: categories
-      name: Categories
+      name: 类别
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: 活动
       url: /archives/
       weight: 30
 

@@ -3,8 +3,7 @@ title: "Site Deploy"
 date: 2023-09-25
 draft: false
 
-tags: ["other"]
-categories: ["chatGPT"]
+categories: ["chatGPT","other"]
 ---
 
 ## 个人网站部署
