@@ -1,0 +1,63 @@
+baseURL: ""
+title: zhang远
+theme: PaperMod
+paginate: 5
+
+params:
+  env: production
+  author: Me
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: facebook
+      url: "https://facebook.com/"
+
+  showBreadCrumbs: true
+  showReading: true
+  showShareButtons: false
+  ShowPostNavLinks: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # 配置欢迎页
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome to my blog!"
+    subtitle: "This blog is about my Programming notes.if you are interested,you can visit my personal life blog,please click Blog!"
+    imageUrl: "img/head.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    # imageTitle: ""
+    buttons:
+      - name: Tech
+        url: /posts/
+      - name: github
+        url: "https://github.com/"
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
+

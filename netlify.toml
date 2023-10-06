@@ -1,0 +1,5 @@
+[build]
+  command = "hugo"
+  [build.environment]
+    HUGO_VERSION = "0.118.2"
+    HUGO_BINARY_URL = "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz"

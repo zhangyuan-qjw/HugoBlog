@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>chatGPT on zhang远</title><link>/categories/chatgpt/</link><description>Recent content in chatGPT on zhang远</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/chatgpt/index.xml" rel="self" type="application/rss+xml"/><item><title>Site Deploy</title><link>/posts/sitedisploy/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/posts/sitedisploy/</guid><description>个人网站部署 ​ 非常好，接下来我们开始部署前端项目。首先我的服务器已经准备好了（contos系统），并且服务器上下载并运行了docker，其次本地vue项目已经开发好了，并打包成了dist文件夹。在此基础上，下一步该如何操作？
+​ 在你的 CentOS 服务器上已经准备好 Docker 并且本地 Vue 项目已经打包成 dist 文件夹的情况下，下一步是将前端 Vue 项目部署到服务器上的 Docker 容器中。以下是一些步骤来完成这个任务：
+将本地的 Vue.js 项目上传到服务器：你可以使用 SCP 或 SFTP 等工具将本地的 dist 文件夹上传到服务器。假设你将 dist 文件夹上传到服务器的某个目录，比如 /path/to/your/dist.
+创建一个 Dockerfile：在服务器上创建一个 Dockerfile，用于构建一个运行 Vue.js 项目的 Docker 容器。以下是一个示例 Dockerfile：
+# 使用官方的 Node.js 镜像 FROM node:14 # 设置工作目录 WORKDIR /app # 复制本地的 dist 文件夹到容器中 COPY /path/to/your/dist /app # 安装一个简单的 HTTP 服务器，用于提供静态文件 RUN npm install -g http-server # 暴露容器的端口 EXPOSE 8080 # 启动 HTTP 服务器 CMD [&amp;#34;http-server&amp;#34;, &amp;#34;-p&amp;#34;, &amp;#34;8080&amp;#34;] 这个 Dockerfile 使用 Node.</description></item><item><title>Use Django to store images sent from the front end</title><link>/posts/imagesent/</link><pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate><guid>/posts/imagesent/</guid><description>使用django如何储存前端传来的图片？ 在Django中，您可以使用以下步骤将前端传来的图片储存起来：
+在您的Django项目中创建一个模型来储存图片，例如： arduinoCopy codefrom django.db import models
+class Image(models.Model):
+name = models.CharField(max_length=255)
+image_file = models.ImageField(upload_to=&amp;#39;images/&amp;#39;) 这个模型有一个名称字段和一个ImageField字段，后者是Django特有的字段，用于储存图片。
+在您的视图中，您需要将上传的图片从请求中提取出来，并创建一个Image实例来储存它。以下是一个基本的示例视图： arduinoCopy codefrom django.shortcuts import render
+from .models import Image
+def upload_image(request):
+if request.method == &amp;#39;POST&amp;#39;:
+image_file = request.FILES[&amp;#39;image_file&amp;#39;]
+name = request.POST[&amp;#39;name&amp;#39;]
+image = Image.objects.create(name=name, image_file=image_file)
+return render(request, &amp;#39;upload_success.html&amp;#39;, {&amp;#39;image&amp;#39;: image})
+return render(request, &amp;#39;upload_form.html&amp;#39;) 这个视图假设您有一个名为&amp;quot;upload_form.html&amp;quot;的模板来渲染上传表单，以及一个名为&amp;quot;upload_success.html&amp;quot;的模板来渲染成功上传的页面。
+最后，在您的模板中，您需要确保您的表单使用&amp;quot;enctype=&amp;lsquo;multipart/form-data&amp;rsquo;&amp;ldquo;来支持文件上传。以下是一个基本的示例模板： phpCopy code&amp;lt;form action=&amp;#34;{% url &amp;#39;upload_image&amp;#39; %}&amp;#34; method=&amp;#34;post&amp;#34; enctype=&amp;#34;multipart/form-data&amp;#34;&amp;gt;
+{% csrf_token %}
+&amp;lt;label for=&amp;#34;name&amp;#34;&amp;gt;Name:&amp;lt;/label&amp;gt;
+&amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;name&amp;#34; id=&amp;#34;name&amp;#34;&amp;gt;
+&amp;lt;label for=&amp;#34;image_file&amp;#34;&amp;gt;Image:&amp;lt;/label&amp;gt;
+&amp;lt;input type=&amp;#34;file&amp;#34; name=&amp;#34;image_file&amp;#34; id=&amp;#34;image_file&amp;#34;&amp;gt;
+&amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Upload&amp;lt;/button&amp;gt;
+&amp;lt;/form&amp;gt; 这个模板包括一个文本输入框和一个文件输入框，以及一个提交按钮。注意&amp;quot;enctype=&amp;lsquo;multipart/form-data&amp;rsquo;&amp;ldquo;这个属性是必须的来支持文件上传。</description></item></channel></rss>

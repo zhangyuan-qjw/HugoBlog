@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Base on zhang远</title><link>/categories/base/</link><description>Recent content in Base on zhang远</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/base/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Base</title><link>/posts/gitbase/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><guid>/posts/gitbase/</guid><description>Basic commant of git View currently owned baranches git branch
+Basic project process git init
+git add .
+git commit -m &amp;ldquo;First commit&amp;quot;git
+git remote add origin git push -u origin master
+Update project process git status
+git add .
+git commit - &amp;ldquo;Description&amp;rdquo;
+git push (Default current branch)
+when the romote project changes but the local project does not git pull origin master (Pull the latest changed remote branch)</description></item><item><title>java Base</title><link>/posts/javabase/</link><pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate><guid>/posts/javabase/</guid><description>Java修饰符
+Java关键字和标志符（只写几个未知的）
+继承
+接口
+数据类型（区别大小值）
+1.引用数据类型 String字符串类型。 2.基本数据类型 byte类型最小的整型。 char类型只能定义单个字符。 自动类型转换（小自动变大）
+强制类型转换（大强行变小）
+运算符（只记不太一样的）
+1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。
+运算符 用法 含义 说明 实例 结果 &amp;amp;&amp;amp; a&amp;amp;&amp;amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2&amp;gt;1&amp;amp;&amp;amp;3&amp;lt;4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2&amp;lt;1||3&amp;gt;4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2&amp;gt;4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1&amp;gt;2|3&amp;gt;5 false &amp;amp; a&amp;amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1&amp;lt;2&amp;amp;3&amp;lt;5 true &amp;amp;&amp;amp; 与 &amp;amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.</description></item></channel></rss>
