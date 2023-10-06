@@ -1,15 +1,13 @@
-<!doctype html>
-<html lang=en dir=auto>
+<!DOCTYPE html>
+<html lang="en" dir="auto">
 
-<head>
-    <meta charset=utf-8>
-    <meta http-equiv=x-ua-compatible content="IE=edge">
-    <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <meta name=robots content="index, follow">
-    <title>java Base | zhang远</title>
-    <meta name=keywords content="java">
-    <meta name=description
-        content="Java修饰符
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>java Base | zhang远</title>
+<meta name="keywords" content="java">
+<meta name="description" content="Java修饰符
 Java关键字和标志符（只写几个未知的）
 继承
 接口
@@ -18,59 +16,57 @@ Java关键字和标志符（只写几个未知的）
 强制类型转换（大强行变小）
 运算符（只记不太一样的）
 1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。
-运算符 用法 含义 说明 实例 结果 && a&&amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2>1&&amp;3<4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2<1||3>4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2>4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1>2|3>5 false & a&amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1<2&amp;3<5 true && 与 & 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.">
-    <meta name=author content="Me">
-    <link rel=canonical href=/posts/javabase />
-    <link crossorigin=anonymous
-        href=/assets/css/stylesheet.526a38c1d1593cf713bc007a19fc7b2f5a9f37ff520f0dbfe894119bd87f754b.css
-        integrity="sha256-Umo4wdFZPPcTvAB6Gfx7L1qfN/9SDw2/6JQRm9h/dUs=" rel="preload stylesheet" as=style>
-    <script defer crossorigin=anonymous
-        src=/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js
-        integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo=" onload=hljs.initHighlightingOnLoad()></script>
-    <link rel=icon href=favicon.ico>
-    <link rel=icon type=image/png sizes=16x16 href=favicon-16x16.png>
-    <link rel=icon type=image/png sizes=32x32 href=favicon-32x32.png>
-    <link rel=apple-touch-icon href=apple-touch-icon.png>
-    <link rel=mask-icon href=safari-pinned-tab.svg>
-    <meta name=theme-color content="#2e2e33">
-    <meta name=msapplication-TileColor content="#2e2e33"><noscript>
-        <style>
-            #theme-toggle,
-            .top-link {
-                display: none;
+运算符 用法 含义 说明 实例 结果 &amp;&amp; a&amp;&amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2&gt;1&amp;&amp;3&lt;4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2&lt;1||3&gt;4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2&gt;4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1&gt;2|3&gt;5 false &amp; a&amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1&lt;2&amp;3&lt;5 true &amp;&amp; 与 &amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.">
+<meta name="author" content="Me">
+<link rel="canonical" href="/posts/javabase/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5c25c975546c048d1a5600aadb48425ae1bc921a9a18fe67d6955c9535260811.css" integrity="sha256-XCXJdVRsBI0aVgCq20hCWuG8khqaGP5n1pVclTUmCBE=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
             }
-        </style>
-        <style>
-            @media (prefers-color-scheme: dark) {
-                :root {
-                    --theme: rgb(29, 30, 32);
-                    --entry: rgb(46, 46, 51);
-                    --primary: rgb(218, 218, 219);
-                    --secondary: rgb(155, 156, 157);
-                    --tertiary: rgb(65, 66, 68);
-                    --content: rgb(196, 196, 197);
-                    --hljs-bg: rgb(46, 46, 51);
-                    --code-bg: rgb(55, 56, 62);
-                    --border: rgb(51, 51, 51);
-                }
 
-                .list {
-                    background: var(--theme);
-                }
-
-                .list:not(.dark)::-webkit-scrollbar-track {
-                    background: 0 0;
-                }
-
-                .list:not(.dark)::-webkit-scrollbar-thumb {
-                    border-color: var(--theme);
-                }
+            .list {
+                background: var(--theme);
             }
-        </style>
-    </noscript>
-    <meta property="og:title" content="java Base">
-    <meta property="og:description"
-        content="Java修饰符
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="java Base" />
+<meta property="og:description" content="Java修饰符
 Java关键字和标志符（只写几个未知的）
 继承
 接口
@@ -79,17 +75,15 @@ Java关键字和标志符（只写几个未知的）
 强制类型转换（大强行变小）
 运算符（只记不太一样的）
 1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。
-运算符 用法 含义 说明 实例 结果 && a&&amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2>1&&amp;3<4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2<1||3>4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2>4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1>2|3>5 false & a&amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1<2&amp;3<5 true && 与 & 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="/posts/javabase/">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-09-24T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-09-24T00:00:00+00:00">
-    <meta property="og:site_name" content="ExampleSite">
-    <meta name=twitter:card content="summary">
-    <meta name=twitter:title content="java Base">
-    <meta name=twitter:description
-        content="Java修饰符
+运算符 用法 含义 说明 实例 结果 &amp;&amp; a&amp;&amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2&gt;1&amp;&amp;3&lt;4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2&lt;1||3&gt;4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2&gt;4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1&gt;2|3&gt;5 false &amp; a&amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1&lt;2&amp;3&lt;5 true &amp;&amp; 与 &amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/javabase/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-24T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="java Base"/>
+<meta name="twitter:description" content="Java修饰符
 Java关键字和标志符（只写几个未知的）
 继承
 接口
@@ -98,244 +92,365 @@ Java关键字和标志符（只写几个未知的）
 强制类型转换（大强行变小）
 运算符（只记不太一样的）
 1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。
-运算符 用法 含义 说明 实例 结果 && a&&amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2>1&&amp;3<4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2<1||3>4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2>4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1>2|3>5 false & a&amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1<2&amp;3<5 true && 与 & 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.">
-    <script
-        type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"/posts/"},{"@type":"ListItem","position":3,"name":"java Base","item":"/posts/javabase/"}]}</script>
-    <script
-        type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"java Base","name":"java Base","description":"Java修饰符\nJava关键字和标志符（只写几个未知的）\n继承\n接口\n数据类型（区别大小值）\n1.引用数据类型 String字符串类型。 2.基本数据类型 byte类型最小的整型。 char类型只能定义单个字符。 自动类型转换（小自动变大）\n强制类型转换（大强行变小）\n运算符（只记不太一样的）\n1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。\n运算符 用法 含义 说明 实例 结果 \u0026amp;\u0026amp; a\u0026amp;\u0026amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2\u0026gt;1\u0026amp;\u0026amp;3\u0026lt;4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2\u0026lt;1||3\u0026gt;4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2\u0026gt;4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1\u0026gt;2|3\u0026gt;5 false \u0026amp; a\u0026amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1\u0026lt;2\u0026amp;3\u0026lt;5 true \u0026amp;\u0026amp; 与 \u0026amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.","keywords":["java"],"articleBody":"Java修饰符\nJava关键字和标志符（只写几个未知的）\n继承\n接口\n数据类型（区别大小值）\n1.引用数据类型 String字符串类型。 2.基本数据类型 byte类型最小的整型。 char类型只能定义单个字符。 自动类型转换（小自动变大）\n强制类型转换（大强行变小）\n运算符（只记不太一样的）\n1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。\n运算符 用法 含义 说明 实例 结果 \u0026\u0026 a\u0026\u0026b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2\u003e1\u0026\u00263\u003c4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2\u003c1||3\u003e4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2\u003e4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1\u003e2|3\u003e5 false \u0026 a\u0026b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1\u003c2\u00263\u003c5 true \u0026\u0026 与 \u0026 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.三元运算符\nexpression1 ? expression2 : expression3（就是if–eles）[expression1返回一个布尔值，true返回exoression2,false返回expression3。]\n3.优先级问题。（直接百度）\nAPI介绍(直接使用即可)\n1.String(面试题经常考内存) 1.equals()\t//字符串比较 equalsIgnoreCase()这个忽略大小写\t// == 比较地址（不一样）字符串比较不适合用。 2.length()\t//获取字符串长度 3.charAt()\t//获取某个索引位置的字符 4.toCharArray()\t//把字符串转换成字符数组 5.substring(int beginIndex, int endIndex)\t//截取内容（包前不包后） 6.其它自行学习。 7.matches() //可以匹配正则表达式。 2.ArrayList（集合）比较灵活。//有很好的API可以对其进行增.删.改.查。 1.不会直接搜。（数据很灵活） 2.泛型类ArrayList\u003c指定类型（Integer是整型的引用类型）\u003e:\t//泛型了解。可以直接打印。 Java万物皆为对象（三大特征：封装，继承，多态）\n1.建议一个代码文件只定义一个类。 2.成员属性具有默认值。 3.构造器。（本质上就是构造一个成员变量的集合，有需要对其从外部操作） 1.无参数构造器。\t//工具类里面有时需要私有化，防止外部调用对象。 pubilc 类名【这里和类一致，不是乱写的】（）{ } 2.有参数构造器。 pubilc 类名（String n,double p）{ } 4.this关键字，代表当前对象的地址。 1.一般与有参数构造器使用。（与python中self相似，但不同） 2.//区别对象值与传参进来的值，很灵活。 5.封装 1.封装原则：//对象代表什么，就得封装对应的数据，并提供数据对应的行为。 2.//private（私有，隐藏）修饰的成员只能在当前类中访问。这里可以提供geter和seter方法进行取值和赋值。 6.JavaBean实体类。例如：学生类，汽车类，而测试类就不是实体类。 程序结构(只写有必要的)\n1.switch[表达式]--case---default 和C语言一样。【表达式不支持double和float以及long类型】 2.死循环。 数组\n1.静态初始化数组 2.动态初始化数组（只确定长度和类型） Java内存分配\nl.寄存器：JVM内部虚拟寄存器，存取速度非常快，程序不可控制。 2.栈：保存局部变量的值，包括：1.用来保存基本数据类型的值；2.保存类的实例，即堆区对象的引用(指针)。也可以用来保存加载方法时的帧(方法)。 3.堆：用来存放动态产生的数据，比如new出来的对象。注意创建出来的对象只包含属于各自的成员变量，并不包括成员方法。因为同一个类的对象拥有各自的成员变量，存储在各自的堆中，但是他们共享该类的方法，并不是每创建一个对象就把成员方法复制一次。 4.常量池：JVM为每个已加载的类型维护一个常量池，常量池就是这个类型用到的常量的一个有序集合。包括直接常量(基本类型，String)和对其他类型、方法、字段的符号引用(1)。池中的数据和数组一样通过索引访问。由于常量池包含了一个类型所有的对其他类型、方法、字段的符号引用，所以常量池在Java的动态链接中起了核心作用。常量池存在于堆中。 5.代码段：用来存放从硬盘上读取的源程序代码。 6.数据段：用来存放static定义的静态成员。 方法\n1.pubilc static void(int) sum(其他){\t//方法定义，无返回值（有返回值）。 return(void时不需要) } boolean指代返回值是布尔值。\n","wordCount":"180","inLanguage":"en","datePublished":"2023-09-24T00:00:00Z","dateModified":"2023-09-24T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/javabase/"},"publisher":{"@type":"Organization","name":"zhang远","logo":{"@type":"ImageObject","url":"favicon.ico"}}}</script>
+运算符 用法 含义 说明 实例 结果 &amp;&amp; a&amp;&amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2&gt;1&amp;&amp;3&lt;4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2&lt;1||3&gt;4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2&gt;4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1&gt;2|3&gt;5 false &amp; a&amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1&lt;2&amp;3&lt;5 true &amp;&amp; 与 &amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "java Base",
+      "item": "/posts/javabase/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "java Base",
+  "name": "java Base",
+  "description": "Java修饰符\nJava关键字和标志符（只写几个未知的）\n继承\n接口\n数据类型（区别大小值）\n1.引用数据类型 String字符串类型。 2.基本数据类型 byte类型最小的整型。 char类型只能定义单个字符。 自动类型转换（小自动变大）\n强制类型转换（大强行变小）\n运算符（只记不太一样的）\n1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。\n运算符 用法 含义 说明 实例 结果 \u0026amp;\u0026amp; a\u0026amp;\u0026amp;b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2\u0026gt;1\u0026amp;\u0026amp;3\u0026lt;4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2\u0026lt;1||3\u0026gt;4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2\u0026gt;4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1\u0026gt;2|3\u0026gt;5 false \u0026amp; a\u0026amp;b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1\u0026lt;2\u0026amp;3\u0026lt;5 true \u0026amp;\u0026amp; 与 \u0026amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.",
+  "keywords": [
+    "java"
+  ],
+  "articleBody": "Java修饰符\nJava关键字和标志符（只写几个未知的）\n继承\n接口\n数据类型（区别大小值）\n1.引用数据类型 String字符串类型。 2.基本数据类型 byte类型最小的整型。 char类型只能定义单个字符。 自动类型转换（小自动变大）\n强制类型转换（大强行变小）\n运算符（只记不太一样的）\n1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。\n运算符 用法 含义 说明 实例 结果 \u0026\u0026 a\u0026\u0026b 短路与 ab 全为 true 时，计算结果为 true，否则为 false。 2\u003e1\u0026\u00263\u003c4 true || a||b 短路或 ab 全为 false 时，计算结果为 false，否则为 true。 2\u003c1||3\u003e4 false ! !a 逻辑非 a 为 true 时，值为 false，a 为 false 时，值为 true !(2\u003e4) true | a|b 逻辑或 ab 全为 false 时，计算结果为 false，否则为 true 1\u003e2|3\u003e5 false \u0026 a\u0026b 逻辑与 ab 全为 true 时，计算结果为 true，否则为 false 1\u003c2\u00263\u003c5 true \u0026\u0026 与 \u0026 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false） || 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true） 2.三元运算符\nexpression1 ? expression2 : expression3（就是if–eles）[expression1返回一个布尔值，true返回exoression2,false返回expression3。]\n3.优先级问题。（直接百度）\nAPI介绍(直接使用即可)\n1.String(面试题经常考内存) 1.equals()\t//字符串比较 equalsIgnoreCase()这个忽略大小写\t// == 比较地址（不一样）字符串比较不适合用。 2.length()\t//获取字符串长度 3.charAt()\t//获取某个索引位置的字符 4.toCharArray()\t//把字符串转换成字符数组 5.substring(int beginIndex, int endIndex)\t//截取内容（包前不包后） 6.其它自行学习。 7.matches() //可以匹配正则表达式。 2.ArrayList（集合）比较灵活。//有很好的API可以对其进行增.删.改.查。 1.不会直接搜。（数据很灵活） 2.泛型类ArrayList\u003c指定类型（Integer是整型的引用类型）\u003e:\t//泛型了解。可以直接打印。 Java万物皆为对象（三大特征：封装，继承，多态）\n1.建议一个代码文件只定义一个类。 2.成员属性具有默认值。 3.构造器。（本质上就是构造一个成员变量的集合，有需要对其从外部操作） 1.无参数构造器。\t//工具类里面有时需要私有化，防止外部调用对象。 pubilc 类名【这里和类一致，不是乱写的】（）{ } 2.有参数构造器。 pubilc 类名（String n,double p）{ } 4.this关键字，代表当前对象的地址。 1.一般与有参数构造器使用。（与python中self相似，但不同） 2.//区别对象值与传参进来的值，很灵活。 5.封装 1.封装原则：//对象代表什么，就得封装对应的数据，并提供数据对应的行为。 2.//private（私有，隐藏）修饰的成员只能在当前类中访问。这里可以提供geter和seter方法进行取值和赋值。 6.JavaBean实体类。例如：学生类，汽车类，而测试类就不是实体类。 程序结构(只写有必要的)\n1.switch[表达式]--case---default 和C语言一样。【表达式不支持double和float以及long类型】 2.死循环。 数组\n1.静态初始化数组 2.动态初始化数组（只确定长度和类型） Java内存分配\nl.寄存器：JVM内部虚拟寄存器，存取速度非常快，程序不可控制。 2.栈：保存局部变量的值，包括：1.用来保存基本数据类型的值；2.保存类的实例，即堆区对象的引用(指针)。也可以用来保存加载方法时的帧(方法)。 3.堆：用来存放动态产生的数据，比如new出来的对象。注意创建出来的对象只包含属于各自的成员变量，并不包括成员方法。因为同一个类的对象拥有各自的成员变量，存储在各自的堆中，但是他们共享该类的方法，并不是每创建一个对象就把成员方法复制一次。 4.常量池：JVM为每个已加载的类型维护一个常量池，常量池就是这个类型用到的常量的一个有序集合。包括直接常量(基本类型，String)和对其他类型、方法、字段的符号引用(1)。池中的数据和数组一样通过索引访问。由于常量池包含了一个类型所有的对其他类型、方法、字段的符号引用，所以常量池在Java的动态链接中起了核心作用。常量池存在于堆中。 5.代码段：用来存放从硬盘上读取的源程序代码。 6.数据段：用来存放static定义的静态成员。 方法\n1.pubilc static void(int) sum(其他){\t//方法定义，无返回值（有返回值）。 return(void时不需要) } boolean指代返回值是布尔值。\n",
+  "wordCount" : "180",
+  "inLanguage": "en",
+  "datePublished": "2023-09-24T00:00:00Z",
+  "dateModified": "2023-09-24T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Me"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/javabase/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "zhang远",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
-<body id=top>
-    <script>localStorage.getItem("pref-theme") === "dark" ? document.body.classList.add("dark") : localStorage.getItem("pref-theme") === "light" ? document.body.classList.remove("dark") : window.matchMedia("(prefers-color-scheme: dark)").matches && document.body.classList.add("dark")</script>
-    <header class=header>
-        <nav class=nav>
-            <div class=logo><a href accesskey=h title="zhang远 (Alt + H)">zhang远</a>
-                <div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon"
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none"
-                            stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
-                        </svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18"
-                            viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5" />
-                            <line x1="12" y1="1" x2="12" y2="3" />
-                            <line x1="12" y1="21" x2="12" y2="23" />
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                            <line x1="1" y1="12" x2="3" y2="12" />
-                            <line x1="21" y1="12" x2="23" y2="12" />
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                        </svg></button></div>
-            </div>
-            <ul id=menu>
-                <li><a href=/categories/ title=Categories><span>Categories</span></a></li>
-                <li><a href=/tags/ title=Tags><span>Tags</span></a></li>
-                <li><a href=/archives/ title=Archives><span>Archives</span></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class=main>
-        <article class=post-single>
-            <header class=post-header>
-                <div class=breadcrumbs><a href=>Home</a>&nbsp;»&nbsp;<a href=/posts />Posts</a></div>
-                <h1 class=post-title>java Base</h1>
-                <div class=post-meta><span title='2023-09-24 00:00:00 +0000 UTC'>September 24,
-                        2023</span>&nbsp;·&nbsp;Me</div>
-            </header>
-            <div class=post-content>
-                <p><strong>Java修饰符</strong></p>
-                <p><strong>Java关键字和标志符</strong>（只写几个未知的）</p>
-                <p><strong>继承</strong></p>
-                <p><strong>接口</strong></p>
-                <p><strong>数据类型</strong>（区别大小值）</p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>引用数据类型</span>
-</span></span><span style=display:flex;><span>	String字符串类型<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>基本数据类型</span>
-</span></span><span style=display:flex;><span>	byte类型最小的整型<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>	char类型只能定义单个字符<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span></code></pre>
-                </div>
-                <p><strong>自动类型转换</strong>（小自动变大）</p>
-                <p><strong>强制类型转换</strong>（大强行变小）</p>
-                <p><strong>运算符</strong>（只记不太一样的）</p>
-                <p>1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th style=text-align:left>运算符</th>
-                            <th style=text-align:left>用法</th>
-                            <th style=text-align:left>含义</th>
-                            <th style=text-align:left>说明</th>
-                            <th style=text-align:left>实例</th>
-                            <th style=text-align:left>结果</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style=text-align:left>&&</td>
-                            <td style=text-align:left>a&&amp;b</td>
-                            <td style=text-align:left>短路与</td>
-                            <td style=text-align:left>ab 全为 true 时，计算结果为 true，否则为 false。</td>
-                            <td style=text-align:left>2>1&&amp;3&lt;4</td>
-                            <td style=text-align:left>true</td>
-                        </tr>
-                        <tr>
-                            <td style=text-align:left>||</td>
-                            <td style=text-align:left>a||b</td>
-                            <td style=text-align:left>短路或</td>
-                            <td style=text-align:left>ab 全为 false 时，计算结果为 false，否则为 true。</td>
-                            <td style=text-align:left>2&lt;1||3>4</td>
-                            <td style=text-align:left>false</td>
-                        </tr>
-                        <tr>
-                            <td style=text-align:left>!</td>
-                            <td style=text-align:left>!a</td>
-                            <td style=text-align:left>逻辑非</td>
-                            <td style=text-align:left>a 为 true 时，值为 false，a 为 false 时，值为 true</td>
-                            <td style=text-align:left>!(2>4)</td>
-                            <td style=text-align:left>true</td>
-                        </tr>
-                        <tr>
-                            <td style=text-align:left>|</td>
-                            <td style=text-align:left>a|b</td>
-                            <td style=text-align:left>逻辑或</td>
-                            <td style=text-align:left>ab 全为 false 时，计算结果为 false，否则为 true</td>
-                            <td style=text-align:left>1>2|3>5</td>
-                            <td style=text-align:left>false</td>
-                        </tr>
-                        <tr>
-                            <td style=text-align:left>&</td>
-                            <td style=text-align:left>a&amp;b</td>
-                            <td style=text-align:left>逻辑与</td>
-                            <td style=text-align:left>ab 全为 true 时，计算结果为 true，否则为 false</td>
-                            <td style=text-align:left>1&lt;2&amp;3&lt;5</td>
-                            <td style=text-align:left>true</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <ul>
-                    <li>&& 与 & 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false）</li>
-                    <li>|| 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true）</li>
-                </ul>
-                <p>2.三元运算符</p>
-                <p>expression1 ? expression2 :
-                    expression3（就是if&ndash;eles）[expression1返回一个布尔值，true返回exoression2,false返回expression3。]</p>
-                <p>3.优先级问题。（直接百度）</p>
-                <p><strong>API介绍</strong>(直接使用即可)</p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>String</span><span style=color:#f92672>(</span>面试题经常考内存<span style=color:#f92672>)</span>
-</span></span><span style=display:flex;><span>    1<span style=color:#f92672>.</span><span style=color:#a6e22e>equals</span><span style=color:#f92672>()</span>	<span style=color:#75715e>//字符串比较
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>      equalsIgnoreCase<span style=color:#f92672>()</span>这个忽略大小写	<span style=color:#75715e>// == 比较地址（不一样）字符串比较不适合用。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    2<span style=color:#f92672>.</span><span style=color:#a6e22e>length</span><span style=color:#f92672>()</span>	<span style=color:#75715e>//获取字符串长度
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    3<span style=color:#f92672>.</span><span style=color:#a6e22e>charAt</span><span style=color:#f92672>()</span>	<span style=color:#75715e>//获取某个索引位置的字符
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    4<span style=color:#f92672>.</span><span style=color:#a6e22e>toCharArray</span><span style=color:#f92672>()</span>	<span style=color:#75715e>//把字符串转换成字符数组
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    5<span style=color:#f92672>.</span><span style=color:#a6e22e>substring</span><span style=color:#f92672>(</span><span style=color:#66d9ef>int</span> beginIndex<span style=color:#f92672>,</span> <span style=color:#66d9ef>int</span> endIndex<span style=color:#f92672>)</span>	<span style=color:#75715e>//截取内容（包前不包后）
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    6<span style=color:#f92672>.</span><span style=color:#a6e22e>其它自行学习</span><span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>    7<span style=color:#f92672>.</span><span style=color:#a6e22e>matches</span><span style=color:#f92672>()</span> <span style=color:#75715e>//可以匹配正则表达式。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>
-</span></span><span style=display:flex;><span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>ArrayList</span><span style=color:#960050;background-color:#1e0010>（</span>集合<span style=color:#960050;background-color:#1e0010>）</span>比较灵活<span style=color:#960050;background-color:#1e0010>。</span><span style=color:#75715e>//有很好的API可以对其进行增.删.改.查。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    1<span style=color:#f92672>.</span><span style=color:#a6e22e>不会直接搜</span><span style=color:#960050;background-color:#1e0010>。（</span>数据很灵活<span style=color:#960050;background-color:#1e0010>）</span>
-</span></span><span style=display:flex;><span>    2<span style=color:#f92672>.</span><span style=color:#a6e22e>泛型类ArrayList</span><span style=color:#f92672>&lt;</span>指定类型<span style=color:#960050;background-color:#1e0010>（</span>Integer是整型的引用类型<span style=color:#960050;background-color:#1e0010>）</span><span style=color:#f92672>&gt;:</span>	<span style=color:#75715e>//泛型了解。可以直接打印。
-</span></span></span></code></pre>
-                </div>
-                <p><strong>Java万物皆为对象</strong>（三大特征：封装，继承，多态）</p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>建议一个代码文件只定义一个类</span><span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>成员属性具有默认值</span><span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>3<span style=color:#f92672>.</span><span style=color:#a6e22e>构造器</span><span style=color:#960050;background-color:#1e0010>。（</span>本质上就是构造一个成员变量的集合<span style=color:#960050;background-color:#1e0010>，</span>有需要对其从外部操作<span style=color:#960050;background-color:#1e0010>）</span>
-</span></span><span style=display:flex;><span>	1<span style=color:#f92672>.</span><span style=color:#a6e22e>无参数构造器</span><span style=color:#960050;background-color:#1e0010>。</span>	<span style=color:#75715e>//工具类里面有时需要私有化，防止外部调用对象。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>		pubilc 类名<span style=color:#960050;background-color:#1e0010>【</span>这里和类一致<span style=color:#960050;background-color:#1e0010>，</span>不是乱写的<span style=color:#960050;background-color:#1e0010>】（）</span><span style=color:#f92672>{</span>
-</span></span><span style=display:flex;><span>		
-</span></span><span style=display:flex;><span>		<span style=color:#f92672>}</span>
-</span></span><span style=display:flex;><span>	2<span style=color:#f92672>.</span><span style=color:#a6e22e>有参数构造器</span><span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>		pubilc 类名<span style=color:#960050;background-color:#1e0010>（</span>String n<span style=color:#f92672>,</span><span style=color:#66d9ef>double</span> p<span style=color:#960050;background-color:#1e0010>）</span><span style=color:#f92672>{</span>
-</span></span><span style=display:flex;><span>		
-</span></span><span style=display:flex;><span>		<span style=color:#f92672>}</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>4<span style=color:#f92672>.</span><span style=color:#a6e22e>this关键字</span><span style=color:#960050;background-color:#1e0010>，</span>代表当前对象的地址<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>	1<span style=color:#f92672>.</span><span style=color:#a6e22e>一般与有参数构造器使用</span><span style=color:#960050;background-color:#1e0010>。（</span>与python中self相似<span style=color:#960050;background-color:#1e0010>，</span>但不同<span style=color:#960050;background-color:#1e0010>）</span>
-</span></span><span style=display:flex;><span>	2<span style=color:#f92672>.</span><span style=color:#75715e>//区别对象值与传参进来的值，很灵活。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>	
-</span></span><span style=display:flex;><span>5<span style=color:#f92672>.</span><span style=color:#a6e22e>封装</span>
-</span></span><span style=display:flex;><span>	1<span style=color:#f92672>.</span><span style=color:#a6e22e>封装原则</span><span style=color:#960050;background-color:#1e0010>：</span><span style=color:#75715e>//对象代表什么，就得封装对应的数据，并提供数据对应的行为。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>    2<span style=color:#f92672>.</span><span style=color:#75715e>//private（私有，隐藏）修饰的成员只能在当前类中访问。这里可以提供geter和seter方法进行取值和赋值。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>
-</span></span><span style=display:flex;><span>6<span style=color:#f92672>.</span><span style=color:#a6e22e>JavaBean实体类</span><span style=color:#960050;background-color:#1e0010>。</span>例如<span style=color:#960050;background-color:#1e0010>：</span>学生类<span style=color:#960050;background-color:#1e0010>，</span>汽车类<span style=color:#960050;background-color:#1e0010>，</span>而测试类就不是实体类<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span></code></pre>
-                </div>
-                <p><strong>程序结构</strong>(只写有必要的)</p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>switch</span><span style=color:#f92672>[</span>表达式<span style=color:#f92672>]--</span><span style=color:#66d9ef>case</span><span style=color:#f92672>---</span><span style=color:#66d9ef>default</span> 和C语言一样<span style=color:#960050;background-color:#1e0010>。【</span>表达式不支持double和float以及long类型<span style=color:#960050;background-color:#1e0010>】</span> 
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>死循环</span><span style=color:#960050;background-color:#1e0010>。</span>
-</span></span></code></pre>
-                </div>
-                <p><strong>数组</strong></p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>静态初始化数组</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>动态初始化数组</span><span style=color:#960050;background-color:#1e0010>（</span>只确定长度和类型<span style=color:#960050;background-color:#1e0010>）</span>
-</span></span></code></pre>
-                </div>
-                <p><strong>Java内存分配</strong></p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>l<span style=color:#f92672>.</span><span style=color:#a6e22e>寄存器</span><span style=color:#960050;background-color:#1e0010>：</span>JVM内部虚拟寄存器<span style=color:#960050;background-color:#1e0010>，</span>存取速度非常快<span style=color:#960050;background-color:#1e0010>，</span>程序不可控制<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>栈</span><span style=color:#960050;background-color:#1e0010>：</span>保存局部变量的值<span style=color:#960050;background-color:#1e0010>，</span>包括<span style=color:#960050;background-color:#1e0010>：</span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>用来保存基本数据类型的值</span><span style=color:#960050;background-color:#1e0010>；</span>2<span style=color:#f92672>.</span><span style=color:#a6e22e>保存类的实例</span><span style=color:#960050;background-color:#1e0010>，</span>即堆区对象的引用<span style=color:#f92672>(</span>指针<span style=color:#f92672>)</span><span style=color:#960050;background-color:#1e0010>。</span>也可以用来保存加载方法时的帧<span style=color:#f92672>(</span>方法<span style=color:#f92672>)</span><span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>3<span style=color:#f92672>.</span><span style=color:#a6e22e>堆</span><span style=color:#960050;background-color:#1e0010>：</span>用来存放动态产生的数据<span style=color:#960050;background-color:#1e0010>，</span>比如new出来的对象<span style=color:#960050;background-color:#1e0010>。</span>注意创建出来的对象只包含属于各自的成员变量<span style=color:#960050;background-color:#1e0010>，</span>并不包括成员方法<span style=color:#960050;background-color:#1e0010>。</span>因为同一个类的对象拥有各自的成员变量<span style=color:#960050;background-color:#1e0010>，</span>存储在各自的堆中<span style=color:#960050;background-color:#1e0010>，</span>但是他们共享该类的方法<span style=color:#960050;background-color:#1e0010>，</span>并不是每创建一个对象就把成员方法复制一次<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>4<span style=color:#f92672>.</span><span style=color:#a6e22e>常量池</span><span style=color:#960050;background-color:#1e0010>：</span>JVM为每个已加载的类型维护一个常量池<span style=color:#960050;background-color:#1e0010>，</span>常量池就是这个类型用到的常量的一个有序集合<span style=color:#960050;background-color:#1e0010>。</span>包括直接常量<span style=color:#f92672>(</span>基本类型<span style=color:#960050;background-color:#1e0010>，</span>String<span style=color:#f92672>)</span>和对其他类型<span style=color:#960050;background-color:#1e0010>、</span>方法<span style=color:#960050;background-color:#1e0010>、</span>字段的符号引用<span style=color:#f92672>(</span>1<span style=color:#f92672>)</span><span style=color:#960050;background-color:#1e0010>。</span>池中的数据和数组一样通过索引访问<span style=color:#960050;background-color:#1e0010>。</span>由于常量池包含了一个类型所有的对其他类型<span style=color:#960050;background-color:#1e0010>、</span>方法<span style=color:#960050;background-color:#1e0010>、</span>字段的符号引用<span style=color:#960050;background-color:#1e0010>，</span>所以常量池在Java的动态链接中起了核心作用<span style=color:#960050;background-color:#1e0010>。</span>常量池存在于堆中<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>5<span style=color:#f92672>.</span><span style=color:#a6e22e>代码段</span><span style=color:#960050;background-color:#1e0010>：</span>用来存放从硬盘上读取的源程序代码<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span><span style=display:flex;><span>
-</span></span><span style=display:flex;><span>6<span style=color:#f92672>.</span><span style=color:#a6e22e>数据段</span><span style=color:#960050;background-color:#1e0010>：</span>用来存放static定义的静态成员<span style=color:#960050;background-color:#1e0010>。</span>
-</span></span></code></pre>
-                </div>
-                <p><strong>方法</strong></p>
-                <div class=highlight>
-                    <pre tabindex=0
-                        style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;><code class=language-java data-lang=java><span style=display:flex;><span>1<span style=color:#f92672>.</span><span style=color:#a6e22e>pubilc</span> <span style=color:#66d9ef>static</span> <span style=color:#a6e22e>void</span><span style=color:#f92672>(</span><span style=color:#66d9ef>int</span><span style=color:#f92672>)</span> sum<span style=color:#f92672>(</span>其他<span style=color:#f92672>){</span>		<span style=color:#75715e>//方法定义，无返回值（有返回值）。
-</span></span></span><span style=display:flex;><span><span style=color:#75715e></span>		<span style=color:#66d9ef>return</span><span style=color:#f92672>(</span>void时不需要<span style=color:#f92672>)</span>
-</span></span><span style=display:flex;><span><span style=color:#f92672>}</span>
-</span></span></code></pre>
-                </div>
-                <p><strong>boolean</strong>指代返回值是布尔值。</p>
-            </div>
-            <footer class=post-footer>
-                <ul class=post-tags>
-                    <li><a href=/tags/java />java</a></li>
-                </ul>
-                <nav class=paginav><a class=prev href=/posts/sitedisploy /><span class=title>« Prev</span><br><span>Site
-                        Deploy</span></a>
-                    <a class=next href=/posts/reptilebase /><span class=title>Next »</span><br><span>Reptile
-                        Learning</span></a>
-                </nav>
-            </footer>
-        </article>
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="" accesskey="h" title="zhang远 (Alt + H)">zhang远</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <h1 class="post-title">
+      java Base
+    </h1>
+    <div class="post-meta"><span title='2023-09-24 00:00:00 +0000 UTC'>September 24, 2023</span>&nbsp;·&nbsp;Me
+
+</div>
+  </header> 
+  <div class="post-content"><p><strong>Java修饰符</strong></p>
+<p><strong>Java关键字和标志符</strong>（只写几个未知的）</p>
+<p><strong>继承</strong></p>
+<p><strong>接口</strong></p>
+<p><strong>数据类型</strong>（区别大小值）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">引用数据类型</span>
+</span></span><span style="display:flex;"><span>	String字符串类型<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">基本数据类型</span>
+</span></span><span style="display:flex;"><span>	byte类型最小的整型<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>	char类型只能定义单个字符<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span></code></pre></div><p><strong>自动类型转换</strong>（小自动变大）</p>
+<p><strong>强制类型转换</strong>（大强行变小）</p>
+<p><strong>运算符</strong>（只记不太一样的）</p>
+<p>1.逻辑运算符是对布尔型变量进行运算，其结果也是布尔型，具体如表 1 所示。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">运算符</th>
+<th style="text-align:left">用法</th>
+<th style="text-align:left">含义</th>
+<th style="text-align:left">说明</th>
+<th style="text-align:left">实例</th>
+<th style="text-align:left">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&amp;&amp;</td>
+<td style="text-align:left">a&amp;&amp;b</td>
+<td style="text-align:left">短路与</td>
+<td style="text-align:left">ab 全为 true 时，计算结果为 true，否则为 false。</td>
+<td style="text-align:left">2&gt;1&amp;&amp;3&lt;4</td>
+<td style="text-align:left">true</td>
+</tr>
+<tr>
+<td style="text-align:left">||</td>
+<td style="text-align:left">a||b</td>
+<td style="text-align:left">短路或</td>
+<td style="text-align:left">ab 全为 false 时，计算结果为 false，否则为 true。</td>
+<td style="text-align:left">2&lt;1||3&gt;4</td>
+<td style="text-align:left">false</td>
+</tr>
+<tr>
+<td style="text-align:left">!</td>
+<td style="text-align:left">!a</td>
+<td style="text-align:left">逻辑非</td>
+<td style="text-align:left">a 为 true 时，值为 false，a 为 false 时，值为 true</td>
+<td style="text-align:left">!(2&gt;4)</td>
+<td style="text-align:left">true</td>
+</tr>
+<tr>
+<td style="text-align:left">|</td>
+<td style="text-align:left">a|b</td>
+<td style="text-align:left">逻辑或</td>
+<td style="text-align:left">ab 全为 false 时，计算结果为 false，否则为 true</td>
+<td style="text-align:left">1&gt;2|3&gt;5</td>
+<td style="text-align:left">false</td>
+</tr>
+<tr>
+<td style="text-align:left">&amp;</td>
+<td style="text-align:left">a&amp;b</td>
+<td style="text-align:left">逻辑与</td>
+<td style="text-align:left">ab 全为 true 时，计算结果为 true，否则为 false</td>
+<td style="text-align:left">1&lt;2&amp;3&lt;5</td>
+<td style="text-align:left">true</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&amp;&amp; 与 &amp; 区别：如果 a 为 false，则不计算 b（因为不论 b 为何值，结果都为 false）</li>
+<li>|| 与 | 区别：如果 a 为 true，则不计算 b（因为不论 b 为何值，结果都为 true）</li>
+</ul>
+<p>2.三元运算符</p>
+<p>expression1 ? expression2 : expression3（就是if&ndash;eles）[expression1返回一个布尔值，true返回exoression2,false返回expression3。]</p>
+<p>3.优先级问题。（直接百度）</p>
+<p><strong>API介绍</strong>(直接使用即可)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">String</span><span style="color:#f92672">(</span>面试题经常考内存<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">()</span>	<span style="color:#75715e">//字符串比较
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      equalsIgnoreCase<span style="color:#f92672">()</span>这个忽略大小写	<span style="color:#75715e">// == 比较地址（不一样）字符串比较不适合用。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">()</span>	<span style="color:#75715e">//获取字符串长度
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">3</span><span style="color:#f92672">.</span><span style="color:#a6e22e">charAt</span><span style="color:#f92672">()</span>	<span style="color:#75715e">//获取某个索引位置的字符
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">4</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">()</span>	<span style="color:#75715e">//把字符串转换成字符数组
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> beginIndex<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> endIndex<span style="color:#f92672">)</span>	<span style="color:#75715e">//截取内容（包前不包后）
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">6</span><span style="color:#f92672">.</span><span style="color:#a6e22e">其它自行学习</span><span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">7</span><span style="color:#f92672">.</span><span style="color:#a6e22e">matches</span><span style="color:#f92672">()</span> <span style="color:#75715e">//可以匹配正则表达式。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ArrayList</span><span style="color:#960050;background-color:#1e0010">（</span>集合<span style="color:#960050;background-color:#1e0010">）</span>比较灵活<span style="color:#960050;background-color:#1e0010">。</span><span style="color:#75715e">//有很好的API可以对其进行增.删.改.查。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">不会直接搜</span><span style="color:#960050;background-color:#1e0010">。（</span>数据很灵活<span style="color:#960050;background-color:#1e0010">）</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">泛型类ArrayList</span><span style="color:#f92672">&lt;</span>指定类型<span style="color:#960050;background-color:#1e0010">（</span>Integer是整型的引用类型<span style="color:#960050;background-color:#1e0010">）</span><span style="color:#f92672">&gt;:</span>	<span style="color:#75715e">//泛型了解。可以直接打印。
+</span></span></span></code></pre></div><p><strong>Java万物皆为对象</strong>（三大特征：封装，继承，多态）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">建议一个代码文件只定义一个类</span><span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">成员属性具有默认值</span><span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span><span style="color:#f92672">.</span><span style="color:#a6e22e">构造器</span><span style="color:#960050;background-color:#1e0010">。（</span>本质上就是构造一个成员变量的集合<span style="color:#960050;background-color:#1e0010">，</span>有需要对其从外部操作<span style="color:#960050;background-color:#1e0010">）</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">无参数构造器</span><span style="color:#960050;background-color:#1e0010">。</span>	<span style="color:#75715e">//工具类里面有时需要私有化，防止外部调用对象。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		pubilc 类名<span style="color:#960050;background-color:#1e0010">【</span>这里和类一致<span style="color:#960050;background-color:#1e0010">，</span>不是乱写的<span style="color:#960050;background-color:#1e0010">】（）</span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">有参数构造器</span><span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>		pubilc 类名<span style="color:#960050;background-color:#1e0010">（</span>String n<span style="color:#f92672">,</span><span style="color:#66d9ef">double</span> p<span style="color:#960050;background-color:#1e0010">）</span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4</span><span style="color:#f92672">.</span><span style="color:#a6e22e">this关键字</span><span style="color:#960050;background-color:#1e0010">，</span>代表当前对象的地址<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">一般与有参数构造器使用</span><span style="color:#960050;background-color:#1e0010">。（</span>与python中self相似<span style="color:#960050;background-color:#1e0010">，</span>但不同<span style="color:#960050;background-color:#1e0010">）</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#75715e">//区别对象值与传参进来的值，很灵活。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#a6e22e">封装</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">封装原则</span><span style="color:#960050;background-color:#1e0010">：</span><span style="color:#75715e">//对象代表什么，就得封装对应的数据，并提供数据对应的行为。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#75715e">//private（私有，隐藏）修饰的成员只能在当前类中访问。这里可以提供geter和seter方法进行取值和赋值。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6</span><span style="color:#f92672">.</span><span style="color:#a6e22e">JavaBean实体类</span><span style="color:#960050;background-color:#1e0010">。</span>例如<span style="color:#960050;background-color:#1e0010">：</span>学生类<span style="color:#960050;background-color:#1e0010">，</span>汽车类<span style="color:#960050;background-color:#1e0010">，</span>而测试类就不是实体类<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span></code></pre></div><p><strong>程序结构</strong>(只写有必要的)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">switch</span><span style="color:#f92672">[</span>表达式<span style="color:#f92672">]--</span><span style="color:#66d9ef">case</span><span style="color:#f92672">---</span><span style="color:#66d9ef">default</span> 和C语言一样<span style="color:#960050;background-color:#1e0010">。【</span>表达式不支持double和float以及long类型<span style="color:#960050;background-color:#1e0010">】</span> 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">死循环</span><span style="color:#960050;background-color:#1e0010">。</span>
+</span></span></code></pre></div><p><strong>数组</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">静态初始化数组</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">动态初始化数组</span><span style="color:#960050;background-color:#1e0010">（</span>只确定长度和类型<span style="color:#960050;background-color:#1e0010">）</span>
+</span></span></code></pre></div><p><strong>Java内存分配</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>l<span style="color:#f92672">.</span><span style="color:#a6e22e">寄存器</span><span style="color:#960050;background-color:#1e0010">：</span>JVM内部虚拟寄存器<span style="color:#960050;background-color:#1e0010">，</span>存取速度非常快<span style="color:#960050;background-color:#1e0010">，</span>程序不可控制<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">栈</span><span style="color:#960050;background-color:#1e0010">：</span>保存局部变量的值<span style="color:#960050;background-color:#1e0010">，</span>包括<span style="color:#960050;background-color:#1e0010">：</span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">用来保存基本数据类型的值</span><span style="color:#960050;background-color:#1e0010">；</span><span style="color:#ae81ff">2</span><span style="color:#f92672">.</span><span style="color:#a6e22e">保存类的实例</span><span style="color:#960050;background-color:#1e0010">，</span>即堆区对象的引用<span style="color:#f92672">(</span>指针<span style="color:#f92672">)</span><span style="color:#960050;background-color:#1e0010">。</span>也可以用来保存加载方法时的帧<span style="color:#f92672">(</span>方法<span style="color:#f92672">)</span><span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span><span style="color:#f92672">.</span><span style="color:#a6e22e">堆</span><span style="color:#960050;background-color:#1e0010">：</span>用来存放动态产生的数据<span style="color:#960050;background-color:#1e0010">，</span>比如new出来的对象<span style="color:#960050;background-color:#1e0010">。</span>注意创建出来的对象只包含属于各自的成员变量<span style="color:#960050;background-color:#1e0010">，</span>并不包括成员方法<span style="color:#960050;background-color:#1e0010">。</span>因为同一个类的对象拥有各自的成员变量<span style="color:#960050;background-color:#1e0010">，</span>存储在各自的堆中<span style="color:#960050;background-color:#1e0010">，</span>但是他们共享该类的方法<span style="color:#960050;background-color:#1e0010">，</span>并不是每创建一个对象就把成员方法复制一次<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4</span><span style="color:#f92672">.</span><span style="color:#a6e22e">常量池</span><span style="color:#960050;background-color:#1e0010">：</span>JVM为每个已加载的类型维护一个常量池<span style="color:#960050;background-color:#1e0010">，</span>常量池就是这个类型用到的常量的一个有序集合<span style="color:#960050;background-color:#1e0010">。</span>包括直接常量<span style="color:#f92672">(</span>基本类型<span style="color:#960050;background-color:#1e0010">，</span>String<span style="color:#f92672">)</span>和对其他类型<span style="color:#960050;background-color:#1e0010">、</span>方法<span style="color:#960050;background-color:#1e0010">、</span>字段的符号引用<span style="color:#f92672">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">)</span><span style="color:#960050;background-color:#1e0010">。</span>池中的数据和数组一样通过索引访问<span style="color:#960050;background-color:#1e0010">。</span>由于常量池包含了一个类型所有的对其他类型<span style="color:#960050;background-color:#1e0010">、</span>方法<span style="color:#960050;background-color:#1e0010">、</span>字段的符号引用<span style="color:#960050;background-color:#1e0010">，</span>所以常量池在Java的动态链接中起了核心作用<span style="color:#960050;background-color:#1e0010">。</span>常量池存在于堆中<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#a6e22e">代码段</span><span style="color:#960050;background-color:#1e0010">：</span>用来存放从硬盘上读取的源程序代码<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6</span><span style="color:#f92672">.</span><span style="color:#a6e22e">数据段</span><span style="color:#960050;background-color:#1e0010">：</span>用来存放static定义的静态成员<span style="color:#960050;background-color:#1e0010">。</span>
+</span></span></code></pre></div><p><strong>方法</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pubilc</span> <span style="color:#66d9ef">static</span> <span style="color:#a6e22e">void</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span><span style="color:#f92672">)</span> sum<span style="color:#f92672">(</span>其他<span style="color:#f92672">){</span>		<span style="color:#75715e">//方法定义，无返回值（有返回值）。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#66d9ef">return</span><span style="color:#f92672">(</span>void时不需要<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p><strong>boolean</strong>指代返回值是布尔值。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/java/">java</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="/posts/englishdeep/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Deep learning: exploring the future of artificial intelligence</span>
+  </a>
+  <a class="next" href="/posts/reptilebase/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Reptile Learning</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
     </main>
-    <footer class=footer><span>&copy; 2023 <a href>zhang远</a></span>
-        <span>Powered by
-            <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-            <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span>
-    </footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor">
-            <path d="M12 6H0l6-6z" />
-        </svg></a>
-    <script>let menu = document.getElementById("menu"); menu && (menu.scrollLeft = localStorage.getItem("menu-scroll-position"), menu.onscroll = function () { localStorage.setItem("menu-scroll-position", menu.scrollLeft) }), document.querySelectorAll('a[href^="#"]').forEach(e => { e.addEventListener("click", function (e) { e.preventDefault(); var t = this.getAttribute("href").substr(1); window.matchMedia("(prefers-reduced-motion: reduce)").matches ? document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView() : document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({ behavior: "smooth" }), t === "top" ? history.replaceState(null, null, " ") : history.pushState(null, null, `#${t}`) }) })</script>
-    <script>var mybutton = document.getElementById("top-link"); window.onscroll = function () { document.body.scrollTop > 800 || document.documentElement.scrollTop > 800 ? (mybutton.style.visibility = "visible", mybutton.style.opacity = "1") : (mybutton.style.visibility = "hidden", mybutton.style.opacity = "0") }</script>
-    <script>document.getElementById("theme-toggle").addEventListener("click", () => { document.body.className.includes("dark") ? (document.body.classList.remove("dark"), localStorage.setItem("pref-theme", "light")) : (document.body.classList.add("dark"), localStorage.setItem("pref-theme", "dark")) })</script>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="">zhang远</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
 
 </html>

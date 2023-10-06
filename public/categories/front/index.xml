@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>front on zhang远</title>
+    <link>/categories/front/</link>
+    <description>Recent content in front on zhang远</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/front/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Passing value between vue components</title>
+      <link>/posts/vuepassvalue/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/vuepassvalue/</guid>
+      <description>Parent component modifies the value of child component The properties in the props object are read-only properties and cannot be modifies within the component
+Child component const props = defineProps({ newRole: { default: &amp;#39;邱&amp;#39;, type: String, }, }) Parent component x &amp;lt;chatSearch newRole=&amp;#39;&amp;#39;&amp;gt;&amp;lt;/chatSearch&amp;gt; Child component modifies the value of Parent component The properties in the props object are read-only properties and cannot be modifies within the component
+//此处是父组件中引入的子组件 &amp;lt;ChildrenView v-model:num=&amp;#34;num&amp;#34;/&amp;gt; //定义数据 let num=ref(10);//定义num为10,传递给子组 &amp;lt;script setup&amp;gt; //子组件接收父组件传递过来的数据 const props=defineProps({ num:number; }); console.</description>
+    </item>
+    
+  </channel>
+</rss>

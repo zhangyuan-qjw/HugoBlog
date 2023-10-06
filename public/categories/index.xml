@@ -1,1 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on zhang远</title><link>/categories/</link><description>Recent content in Categories on zhang远</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Base</title><link>/categories/base/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><guid>/categories/base/</guid><description/></item><item><title>English</title><link>/categories/english/</link><pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate><guid>/categories/english/</guid><description/></item><item><title>chatGPT</title><link>/categories/chatgpt/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate><guid>/categories/chatgpt/</guid><description/></item><item><title>reptile</title><link>/categories/reptile/</link><pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate><guid>/categories/reptile/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on zhang远</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on zhang远</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>front</title>
+      <link>/categories/front/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/front/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue</title>
+      <link>/categories/vue/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/vue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backend</title>
+      <link>/categories/backend/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Base</title>
+      <link>/categories/base/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/base/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>/categories/english/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chatGPT</title>
+      <link>/categories/chatgpt/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reptile</title>
+      <link>/categories/reptile/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/reptile/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

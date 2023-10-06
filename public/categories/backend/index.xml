@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>backend on zhang远</title>
+    <link>/categories/backend/</link>
+    <description>Recent content in backend on zhang远</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Django for pagination</title>
+      <link>/posts/djangopagination/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/djangopagination/</guid>
+      <description>Create Pageinator class FantasyPagination(PageNumberPagination): page_size = 5 page_size_query_param = &amp;#39;page_size&amp;#39; page_query_param = &amp;#39;page&amp;#39; max_page_size = 10 Use records = FantasyRecord.objects.all().order_by(&amp;#34;-data&amp;#34;) paginator = FantasyPagination() page = paginator.paginate_queryset(records, request) serializer = FantasyRecordSerializer(page, many=True) </description>
+    </item>
+    
+  </channel>
+</rss>

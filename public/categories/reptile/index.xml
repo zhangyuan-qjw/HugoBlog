@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>reptile on zhang远</title><link>/categories/reptile/</link><description>Recent content in reptile on zhang远</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/reptile/index.xml" rel="self" type="application/rss+xml"/><item><title>Reptile Learning</title><link>/posts/reptilebase/</link><pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate><guid>/posts/reptilebase/</guid><description>urllib库（request更方便，在于不用再去构建一个get或者post请求）
-urllib库包含以下几个模块（模块里面是函数）： urllib.request - 打开和读取 URL。 urllib.error - 包含 urllib.request 抛出的异常。 urllib.parse - 解析 URL。 # urllib.robotparser - 解析 robots.txt 文件。 拓: getcode() 函数获取&amp;#39;网页状态码&amp;#39;，返回 200 说明网页正常，返回 404 说明网页不存在 get_text()获取除标签以外的&amp;#39;文本内容&amp;#39;。 .attrs获取&amp;#39;标签对象的属性&amp;#39;，返回一个字典。 body = &amp;#39;\n&amp;#39;.join([line.text for line in lines]) # 有意思的一种换行循环加入列表。 title = bs.find(&amp;#39;h1&amp;#39;).text # text什么意思,去除标签获取文本。 用类来设置属性。 zip()函数：for i n in zip(is,ns):[&amp;#39;用以设置一个双循环&amp;#39;] str.strip([chars]); 参数chars -- 移除字符串&amp;#39;头尾&amp;#39;指定的字符序列。 1.&amp;#39;urllib.request模块&amp;#39; urllib.request.urlopen(url, data=None, [timeout, ]*, cafile=None, capath=None, cadefault=False, context=None) url：url 地址。 data：发送到服务器的其他数据对象，默认为 None。 timeout：设置访问超时时间。 cafile 和 capath：cafile 为 CA 证书， capath 为 CA 证书的路径，使用 HTTPS 需要用到。 cadefault：已经被弃用。 context：ssl.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>reptile on zhang远</title>
+    <link>/categories/reptile/</link>
+    <description>Recent content in reptile on zhang远</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/reptile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reptile Learning</title>
+      <link>/posts/reptilebase/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reptilebase/</guid>
+      <description>urllib库（request更方便，在于不用再去构建一个get或者post请求）
+urllib库包含以下几个模块（模块里面是函数）： urllib.request - 打开和读取 URL。 urllib.error - 包含 urllib.request 抛出的异常。 urllib.parse - 解析 URL。 # urllib.robotparser - 解析 robots.txt 文件。 拓: getcode() 函数获取&amp;#39;网页状态码&amp;#39;，返回 200 说明网页正常，返回 404 说明网页不存在 get_text()获取除标签以外的&amp;#39;文本内容&amp;#39;。 .attrs获取&amp;#39;标签对象的属性&amp;#39;，返回一个字典。 body = &amp;#39;\n&amp;#39;.join([line.text for line in lines]) # 有意思的一种换行循环加入列表。 title = bs.find(&amp;#39;h1&amp;#39;).text # text什么意思,去除标签获取文本。 用类来设置属性。 zip()函数：for i n in zip(is,ns):[&amp;#39;用以设置一个双循环&amp;#39;] str.strip([chars]); 参数chars -- 移除字符串&amp;#39;头尾&amp;#39;指定的字符序列。 1.&amp;#39;urllib.request模块&amp;#39; urllib.request.urlopen(url, data=None, [timeout, ]*, cafile=None, capath=None, cadefault=False, context=None) url：url 地址。 data：发送到服务器的其他数据对象，默认为 None。 timeout：设置访问超时时间。 cafile 和 capath：cafile 为 CA 证书， capath 为 CA 证书的路径，使用 HTTPS 需要用到。 cadefault：已经被弃用。 context：ssl.</description>
+    </item>
+    
+  </channel>
+</rss>
