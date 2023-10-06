@@ -1,5 +1,5 @@
 ---
-title: "活动"
+title: "Archives"
 layout: "archives"
 url: "/archives/"
 summary: "archives"
