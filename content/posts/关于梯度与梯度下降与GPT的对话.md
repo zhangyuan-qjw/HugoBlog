@@ -1,6 +1,6 @@
 ---
-title: "两种快熟部署项目的方法"
-date: 2023-09-28
+title: "关于梯度与梯度下降与GPT的对话"
+date: 2023-10-06
 draft: false
 
 categories: ["deep","chatGPT"]

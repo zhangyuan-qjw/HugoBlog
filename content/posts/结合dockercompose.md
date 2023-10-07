@@ -1,6 +1,6 @@
 ---
 title: "两种快熟部署项目的方法"
-date: 2023-09-28
+date: 2023-10-06
 draft: false
 
 tags: ["docker"]

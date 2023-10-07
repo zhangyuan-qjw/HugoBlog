@@ -43,15 +43,15 @@ params:
 menu:
   main:
     - identifier: categories
-      name: 类别
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: 标签
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: archives
-      name: 活动
+      name: Archives
       url: /archives/
       weight: 30
 
