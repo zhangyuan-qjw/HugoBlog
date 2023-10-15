@@ -8,6 +8,7 @@ params:
   author: Me
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  favicon: "/static/img/Beericons.svg"
 
   socialIcons:
     - name: github
