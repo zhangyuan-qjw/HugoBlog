@@ -40,7 +40,7 @@ params:
       - name: Tech
         url: /posts/
       - name: blog
-        url: "http://8.134.109.184"
+        url: "http://43.138.56.20"
 menu:
   main:
     - identifier: categories

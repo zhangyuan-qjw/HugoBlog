@@ -4,7 +4,7 @@ date: 2023-09-29
 draft: false
 
 tags: ["ts"]
-categories: ["vue","front","English"]
+categories: ["vue","font","English"]
 ---
 
 ### Parent component modifies the value of child component
