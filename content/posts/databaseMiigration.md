@@ -7,12 +7,6 @@ tags: ["docker"]
 categories: ["other"]
 ---
 
-
-
-
-
-
-
 ## 倒出数据库里面的数据
 
 ```mysql
